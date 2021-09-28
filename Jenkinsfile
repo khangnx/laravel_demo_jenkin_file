@@ -1,6 +1,6 @@
 node {
     stage('preparation') {
-        // Checkout the master branch, with credential aaa
+        // Checkout the master branch, with credential
         git credentialsId: 'khangnx', url: 'https://github.com/khangnx/laravel_demo_jenkin_file.git'
     }
     //stage("composer_update_no_script") {
