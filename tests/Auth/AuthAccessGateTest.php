@@ -64,7 +64,7 @@ class AuthAccessGateTest extends TestCase
     public function testBeforeCanAllowGuests()
     {
         $gate = new Gate(new Container, function () {
-            //
+            //SSSSSS
         });
 
         $gate->before(function (?stdClass $user) {
